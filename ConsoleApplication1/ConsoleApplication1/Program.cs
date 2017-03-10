@@ -10,6 +10,13 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            int n, k;
+            Console.WriteLine("Введите числa n и k: ");
+            n = Console.Read();
+            
+            int sq = n * n;
+            Console.WriteLine(sq);
+            k = Console.Read();
         }
     }
 }
